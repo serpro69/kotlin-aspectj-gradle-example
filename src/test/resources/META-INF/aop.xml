@@ -1,0 +1,13 @@
+<aspectj>
+
+    <aspects>
+        <!-- Aspects -->
+        <aspect name="io.github.serpro69.kotlinacj.DeepThoughtAspect"/>
+    </aspects>
+
+    <weaver options="-verbose -showWeaveInfo">
+        <include within="io.github.serpro69.kotlinacj.*"/>
+    </weaver>
+
+</aspectj>
+
